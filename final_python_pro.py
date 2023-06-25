@@ -11,11 +11,7 @@ class Course:
         self.name = name
         self.mark = mark
 
-class Student:
-    total_student = 0
-    def __init__(self, name):
-        self.name = name
-        Student.total_student += 1
+
 
     def __init__(self, name, age, number):
         self.student_id = uuid.uuid4()
